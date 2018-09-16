@@ -1,5 +1,5 @@
 gg.makeRequest("https://raw.githubusercontent.com/fjrsky/Script/master/xloader.lua")
-gg.alert("👙 ASTAGFIRULLAH CHEATER 👙")
+gg.alert("⭕ ASTAGFIRULLAH CHEATER ⭕")
 
 function HOME()
 Menu1 = gg.multiChoice({
