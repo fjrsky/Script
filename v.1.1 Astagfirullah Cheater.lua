@@ -1,17 +1,19 @@
+gg.makeRequest("https://raw.githubusercontent.com/fjrsky/Script/master/v.1.1%20Astagfirullah%20Cheater.lua")
 gg.alert("👙 ASTAGFIRULLAH CHEATER 👙")
+gg.toast(" ⭕ © Fjrsky Corporation ⭕ ")
 
 function HOME()
 Menu1 = gg.multiChoice({
  "⏺⏺🔴BYPASS🔴 ⏺⏺",
- "🔥No Recoil v1 [ Lobby ]",
- "🔥No Recoil v2 [ Sebelum Naik Pesawat ]",
- "🔥No Recoil v3 [ Landing ]",
+ "🔥No Recoil step 1 [ Lobby ]",
+ "🔥No Recoil step 2 [ Sebelum Naik Pesawat ]",
+ "🔥No Recoil step 3 [ Landing ]",
  "🔷Ultra Aimbot [ Dont Use! ]",
  "🔷Small Crosshair [ Landing ]",
- "🔸Wallhack 400/410 (ch) [ Landing ]",
- "🔸Wallhack 410/425 (ca) [ Landing ]",
- "🔸Wallhack 435 [ Landing ]",
- "🔸Wallhack 625 [ Landing ]",
+ "🔸Wallhack 400/410 (ch) [ Open Parachute ]",
+ "🔸Wallhack 410/425 (ca) [ Open Parachute ]",
+ "🔸Wallhack 435 [ Open Parachute ]",
+ "🔸Wallhack 625 [ Open Parachute ]",
  "⏺Body Yellow [ Landing ]",
  "⏺Body White [ All Device - Lobby ]",
  "⏺Body Black [ All Device - Lobby ]",
@@ -139,7 +141,7 @@ gg.clearResults()
 gg.toast("Ultra AimBot has been active")
 end
 
-function SCHR()
+function SCH()
 gg.clearResults()
 gg.searchNumber("3.20000004768;1.09375", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(100)
@@ -312,5 +314,3 @@ do
   end 
   if HOMEDM==1 then HOME() end
 end
-
-
