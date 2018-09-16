@@ -1,6 +1,5 @@
-gg.makeRequest("https://raw.githubusercontent.com/fjrsky/Script/master/v.1.1%20Astagfirullah%20Cheater.lua")
+gg.makeRequest("https://raw.githubusercontent.com/fjrsky/Script/master/v.1.2%20AstagfirullahCheater.lua")
 gg.alert("👙 ASTAGFIRULLAH CHEATER 👙")
-gg.toast("⭕ © Fjrsky Corporation ⭕")
 
 function HOME()
 Menu1 = gg.multiChoice({
@@ -21,7 +20,7 @@ Menu1 = gg.multiChoice({
  "⏏Black Sky [ Landing ]",
  "🔸Headshoot 80% [ Lobby ]",
  "⏺⏺⏺⏺ EXIT ⏺⏺⏺⏺"},
- nil, ' 🔥 ASTAGFIRULLAH CHEATER 🔥 ')
+ nil, ' 🔥 © Fjrsky Corporation 🔥 ')
 if Menu1 == nil then
 
 else
